@@ -1,0 +1,8 @@
+nome = str(input('What is your name: ')).strip()
+print('1. Name in upper:', nome.upper())
+print('2. Name in lower:', nome.lower())
+#print('3. Numbers of letters without space:', len(nome.replace(' ','')))
+print('3. Numbers of letters without space:', len(nome) - nome.count(' '))
+#print('4. How many letters are first name:', nome.find(' '))
+name = nome.split()
+print('4. Your first name is {} and it has {} letters'. format(name[0], len(name[0])))
