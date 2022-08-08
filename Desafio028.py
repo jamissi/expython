@@ -18,6 +18,6 @@ jogador = int(input('Em que numero eu pensei? ')) # O jogador escolhe um número
 print('PROCESSANDO...')
 sleep(3)
 if jogador == computador:
-    print('PARABÉNS, VOCÊ VENCEU! ): ')
+    print('PARABÉNS, VOCÊ VENCEU!')
 else:
     print(f'GANHEI! Eu pensei no número {computador} e não no {jogador}, tente novamente. :D')
