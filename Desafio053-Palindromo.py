@@ -2,6 +2,7 @@
 #Se ela é um palindromo, desconsiderando os espaços.
 #Crie um programa que leia uma frase qualquer e diga
 #Se ela é um palindromo, desconsiderando os espaços.
+
 frase = str(input('Digite uma frase: ')).upper().strip()
 palavras = frase.split()
 junto =''.join(palavras)

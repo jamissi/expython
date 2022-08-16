@@ -1,10 +1,3 @@
-'''Faça um programa que leia o ano de um jovem e informe,
-de acordo com a sua idade:
--Se ele ainda vai se alistar ao serviço militar.
--Se é a hora de se alistar.
--Se já passou do tempo do alitamento.
-O programa também deverá mostrar o tempo que falta ou que passou do prazo.'''
-
 from datetime import date
 atual = date.today().year
 ano = int(input('ANO DE SEU NASCIMENTO: '))
